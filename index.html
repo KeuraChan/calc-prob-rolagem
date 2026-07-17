@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Simulador RPG</title>
+
+        <link rel="stylesheet" href="style.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Simulador de Balanceamento</h1>
+
+            <label>
+                Lados do dado
+                <input id="dado" type="number" value="6" />
+            </label>
+
+            <label>
+                Quantidade de dados
+                <input id="qtd" type="number" value="2" />
+            </label>
+
+            <label>
+                Bônus Jogador 1
+                <input id="b1" type="number" value="0" />
+            </label>
+
+            <label>
+                Bônus Jogador 2
+                <input id="b2" type="number" value="0" />
+            </label>
+
+            <button onclick="calcular()">Calcular</button>
+
+            <div id="resultado"></div>
+
+            <canvas id="grafico"></canvas>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
