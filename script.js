@@ -27,17 +27,18 @@ function distribuicao(lados, dados, bonus) {
 }
 
 function calcular() {
-    const lados = parseInt(document.getElementById("dado").value);
+    const lados1 = parseInt(document.getElementById("dado1").value);
+    const lados2 = parseInt(document.getElementById("dado2").value);
 
-    const dados = parseInt(document.getElementById("qtd").value);
-
+    const dados1 = parseInt(document.getElementById("qtd1").value);
+    const dados2 = parseInt(document.getElementById("qtd2").value);
+    
     const b1 = parseInt(document.getElementById("b1").value);
-
     const b2 = parseInt(document.getElementById("b2").value);
 
-    const j1 = distribuicao(lados, dados, b1);
+    const j1 = distribuicao(lados1, dados1, b1);
 
-    const j2 = distribuicao(lados, dados, b2);
+    const j2 = distribuicao(lados2, dados2, b2);
 
     let v1 = 0;
 
