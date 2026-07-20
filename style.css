@@ -57,3 +57,13 @@ canvas{
     margin-top:30px;
 
 }
+
+.jogador-um{
+    display: flex;
+    justify-content: row;
+}
+
+.jogador-dois{
+    display: flex;
+    justify-content: row;
+}
