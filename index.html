@@ -14,26 +14,38 @@
         <div class="container">
             <h1>Simulador de Balanceamento</h1>
 
-            <label>
-                Lados do dado
-                <input id="dado" type="number" value="6" />
-            </label>
-
-            <label>
-                Quantidade de dados
-                <input id="qtd" type="number" value="2" />
-            </label>
-
-            <label>
-                Bônus Jogador 1
-                <input id="b1" type="number" value="0" />
-            </label>
-
-            <label>
-                Bônus Jogador 2
-                <input id="b2" type="number" value="0" />
-            </label>
-
+            <div class="jogador-um"> 
+                <label>
+                    Lados do dado J1
+                    <input id="dado1" type="number" value="6" />
+                </label>
+    
+                <label>
+                    Quantidade de dados J1
+                    <input id="qtd1" type="number" value="2" />
+                </label>
+    
+                <label>
+                    Bônus Jogador 1
+                    <input id="b1" type="number" value="0" />
+                </label>
+            </div>
+            <div class="jogador-dois"> 
+                <label>
+                    Lados do dado J2
+                    <input id="dado2" type="number" value="6" />
+                </label>
+    
+                <label>
+                    Quantidade de dados J2
+                    <input id="qtd2" type="number" value="2" />
+                </label>
+                <label>
+                    Bônus Jogador 2
+                    <input id="b2" type="number" value="0" />
+                </label>
+            </div>
+            
             <button onclick="calcular()">Calcular</button>
 
             <div id="resultado"></div>
